@@ -1,14 +1,11 @@
 {
-  "name": "anti_dns_hijecking",
+  "name": "jquery-anti-dns-hijecking",
   "version": "1.0.0",
   "authors": [
     "'lexus.lin' <'lexus.lin@vipshop.com'>"
   ],
-  "description": "anti dns hijecking",
-  "main": "index.js",
-  "moduleType": [
-    "node"
-  ],
+  "description": "jquery-anti-dns-hijecking",
+  "main": "jquery-anti-dns-hijecking.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
