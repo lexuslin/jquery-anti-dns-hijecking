@@ -188,4 +188,6 @@
 
 	win.AntiHijecking = AntiHijecking;
 
+	//@initFn
+
 })(window, $)
