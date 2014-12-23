@@ -190,4 +190,6 @@
 
     //@initFn
 
+	//@initFn
+
 })(window, $)
