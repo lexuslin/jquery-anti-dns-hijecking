@@ -1,2 +1,2 @@
-jquery-anti-dns-hijecking
+JQuery-Anti-DNS-Hijecking
 =========
