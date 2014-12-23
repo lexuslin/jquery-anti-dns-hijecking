@@ -12,8 +12,6 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "bower.json",
-    "package.json"
+    "tests"
   ]
 }
