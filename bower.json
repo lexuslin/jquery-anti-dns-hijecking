@@ -1,0 +1,20 @@
+{
+  "name": "anti_dns_hijecking",
+  "version": "1.0.0",
+  "authors": [
+    "'lexus.lin' <'lexus.lin@vipshop.com'>"
+  ],
+  "description": "anti dns hijecking",
+  "main": "index.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
