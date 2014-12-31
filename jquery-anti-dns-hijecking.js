@@ -109,7 +109,7 @@
 
                     that.hijeckingList.push({
                         html: html,
-                        nodeList: classList,
+                        nodeList: $.makeArray ? $.makeArray(classList) : classList,
                         count: that.count
                     })
                 })
