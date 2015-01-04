@@ -1,6 +1,6 @@
 {
   "name": "anti_dns_hijecking",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "anti dns hijecking",
   "main": "index.js",
   "scripts": {
