@@ -1,19 +1,25 @@
 {
-  "name": "jquery-anti-dns-hijecking",
-  "version": "1.0.0",
-  "description": "",
-  "main": "jquery-anti-dns-hijecking.js",
+  "name": "anti_dns_hijecking",
+  "version": "1.0.1",
+  "description": "anti dns hijecking",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lexuslin/jquery-anti-dns-hijecking.git"
+    "url": "http://gitlab.tools.vipshop.com/lexus.lin/anti_dns_hijecking.git"
   },
-  "author": "",
+  "author": "lexus.lin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lexuslin/jquery-anti-dns-hijecking/issues"
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-bump": "0.0.16",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-replace": "*"
   },
-  "homepage": "https://github.com/lexuslin/jquery-anti-dns-hijecking"
+  "dependencies": {}
 }
