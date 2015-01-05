@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html anti-hijecking>
+
+<head anti-hijecking>
+<meta anti-hijecking http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta anti-hijecking name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title anti-hijecking>anti_hijecking</title>
+<link anti-hijecking rel="stylesheet" href="../css/style.css">
+</head>
+
+<body anti-hijecking style="background:#ccc; text-align:center; line-height:50px;">
+	<div anti-hijecking>body结束标签插入的iframe广告</div>
+<script anti-hijecking>
+{literal}
+!function(a,b){function c(a){b.extend(this,a),this.init()}b.extend(c.prototype,{hijeckingList:[],typeList:["u.c.b.r.o.w.s.e.r","10086.cn","adpro-tt","tlbsserver/jsreq","static/floatingcontent","__WeixinJSBridgeIframe","__WeiboJSInvokeIframe","http://ma.vip.com/statics/js/active_common","t5.baidu.com","ad.100msh.com","wo.iuni.com.cn","bdwm.hsmkj.net","recog_div","<link anti-hijecking>","pageSwitch_control","http://3rd-app.vipstatic.com/mars/mars_wap","http://ap.vip.com/statics/js/jquery","MTT_NIGHT_MDOE_MSG_IFRAME","<style anti-hijecking></style>",'<style anti-hijecking type="text/css"></style>'],count:0,platform:null,system:null,init:function(){this.el=b(this.selector),this.initPlatform(),this.startCheck()},startCheck:function(){var a;this.startTime=this.t1=+new Date,a=b.proxy(this.check,this),this.interval=setInterval(a,1e3),a()},getQueryString:function(a){var b=new RegExp("(^|&)"+a+"=([^&]*)(&|$)","i"),c=location.search.substr(1).match(b);return null!=c?unescape(c[2]):null},initPlatform:function(){var a,b=this.getQueryString("source"),c=navigator.userAgent.toLowerCase(),d=location.host;a=b?this.getQueryString("client"):c.indexOf("micromessenger")>-1?"weixin":/m.vip.com/.test(d)?"wap":"other",this.platform=a},isWap:function(){this.isWap=/m.vip.com/.test(location.host)?!0:!1},check:function(){var a=b(this.selector),c=this;a.length&&(a.each(function(){var a,d;a=this.outerHTML,d=b(this).parents().map(function(){return b(this).attr("class")}),c.hijeckingList.push({html:a,nodeList:d,count:c.count})}),a.remove()),this.afterCheck()},afterCheck:function(){if(this.count||(this.runTime=+new Date-this.t1),+new Date-this.startTime>5e3){var a=this.getListParams();clearInterval(this.interval),this.hijeckingList.length&&this.send(a)}else this.count++},send:function(a){{var c=new Image;this.server}c.src=this.server+"?"+b.param(a)},getType:function(){var a,c=this.strList=JSON.stringify(this.hijeckingList);return a=b.map(this.typeList,function(a){return c.indexOf(JSON.stringify(a))>-1?a:void 0})[0],a||"other"},getListParams:function(){var a,b,c,d=this.runTime;return c=this.getType(),"other"==c&&(b=this.strList.slice(-5e3)),a={query:JSON.stringify({type:c,platform:this.platform}),sum:1,avg:JSON.stringify({time:d}),msg:b||""}}}),a.AntiHijecking=c;var d={selector:":not([anti-hijecking])",server:"http://mstats.vip.com/stats/dns_ggk"};new c(d)}(window,$);
+</script>
+{/literal}
+</body>
+</html>

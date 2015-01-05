@@ -1,0 +1,8 @@
+/* CSS Document */
+body{ font-family:Arial,Verdana; padding:0; margin:0; font-size:12px; color:#858585; background:#e8e8e8; min-width:320px;}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}/*阻止转屏时字体变大*/
+html,div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,img,dd,dt,dl{ padding:0; margin:0; border:none;}
+img{ padding:0; margin:0; vertical-align:top; border:none;}
+ul,li{ list-style:none outside none; padding:0; margin:0;}
+h1,h2{color:#404040; font-size:14px;}
+
